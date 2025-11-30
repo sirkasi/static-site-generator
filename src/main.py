@@ -325,6 +325,7 @@ def olist_to_html_node(block):
 
 
 
+
 def extract_title(markdown):
     lines = markdown.split("\n")
     for line in lines:
@@ -333,4 +334,5 @@ def extract_title(markdown):
     raise Exception("No title found")
 
 
-main()
+if __name__ == "__main__":
+    main()
